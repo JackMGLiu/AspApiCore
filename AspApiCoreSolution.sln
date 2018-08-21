@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28016.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreApi.Infrastructure", "AspCoreApi.Infrastructure\AspCoreApi.Infrastructure.csproj", "{A17C51D8-CAE2-4CB9-9270-2A4A7026EFD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspCoreApi.Infrastructure", "AspCoreApi.Infrastructure\AspCoreApi.Infrastructure.csproj", "{A17C51D8-CAE2-4CB9-9270-2A4A7026EFD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreApi.Models", "AspCoreApi.Models\AspCoreApi.Models.csproj", "{7E0FC994-BCE1-4336-A758-EDC4B4797A14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspCoreApi.Models", "AspCoreApi.Models\AspCoreApi.Models.csproj", "{7E0FC994-BCE1-4336-A758-EDC4B4797A14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreApi.DataContext", "AspCoreApi.DataContext\AspCoreApi.DataContext.csproj", "{5243C99F-1103-4695-AC41-255B3B154947}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7E0FC994-BCE1-4336-A758-EDC4B4797A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E0FC994-BCE1-4336-A758-EDC4B4797A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E0FC994-BCE1-4336-A758-EDC4B4797A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5243C99F-1103-4695-AC41-255B3B154947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5243C99F-1103-4695-AC41-255B3B154947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5243C99F-1103-4695-AC41-255B3B154947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5243C99F-1103-4695-AC41-255B3B154947}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
