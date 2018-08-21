@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreApi.DataContext", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreApi.ViewModels", "AspCoreApi.ViewModels\AspCoreApi.ViewModels.csproj", "{80EEF1FD-7D20-41E9-950F-BAEA8BCDD81E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreApi.Web", "AspCoreApi.Web\AspCoreApi.Web.csproj", "{D7B68425-5C0C-4B85-8948-E3169CA30797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreApi.Repositories", "AspCoreApi.Repositories\AspCoreApi.Repositories.csproj", "{582F5492-D677-45A2-8651-CABEC1FDB2BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{80EEF1FD-7D20-41E9-950F-BAEA8BCDD81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80EEF1FD-7D20-41E9-950F-BAEA8BCDD81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80EEF1FD-7D20-41E9-950F-BAEA8BCDD81E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B68425-5C0C-4B85-8948-E3169CA30797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B68425-5C0C-4B85-8948-E3169CA30797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B68425-5C0C-4B85-8948-E3169CA30797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B68425-5C0C-4B85-8948-E3169CA30797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582F5492-D677-45A2-8651-CABEC1FDB2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582F5492-D677-45A2-8651-CABEC1FDB2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582F5492-D677-45A2-8651-CABEC1FDB2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582F5492-D677-45A2-8651-CABEC1FDB2BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

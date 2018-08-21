@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AspCoreApi.Models\AspCoreApi.Models.csproj" />
+    <ProjectReference Include="..\AspCoreApi.DataContext\AspCoreApi.DataContext.csproj" />
   </ItemGroup>
 
 </Project>
